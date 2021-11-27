@@ -17,6 +17,16 @@
     <body>
         @* And here's where we render the `Html` object containing
          * the page content. *@
+        <nav>
+            <ul>
+                <li>
+                    <a href="/">Home</a>
+                </li>
+                <li>
+                    <a href="/Players">Players</a>
+                </li>
+            </ul>
+        </nav>
         @content
 
         <script src="@routes.Assets.versioned("javascripts/main.js")" type="text/javascript"></script>
